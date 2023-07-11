@@ -1,0 +1,34 @@
+#sec-favorities-list {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.contenedorPeliculas {
+    text-align: justify;
+}
+
+.contenedorPeliculas img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.contenedorPeliculas h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.contenedorPeliculas p {
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(109, 138, 138)
+}

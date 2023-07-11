@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUP LC2 - TP Integrador - Cine</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/common.css" />
+</head>
+<body>
+    <header>
+        <h1>
+        <!--Titulo Cabecera-->
+            <span>Cartelera de Cine</span>
+        </h1>
+        <nav>
+        <!--Menu Superior-->
+            <ul>
+                <li><a href="index.html" target="_self">Cartelera</a></li>
+                <li class="current-page"><a href="#" target="_self">Mis Favoritas</a></li>
+                <li><a href="help.html" target="_self">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Contenido principal de la página -->
+    <main>
+        <h2>Mis Peliculas Favoritas</h2>
+        <section id="form-movie-new">
+        <!--Seccion para agregar una palicula favorita por codigo-->
+        </section>
+        <section id="sec-favorities-list ">
+            <div class="contenedorPeliculasFavoritas">
+                <img src="img/tangled.jpg" alt="Tangled" width="400" height="550"> 
+                <h3>Enredados</h3>
+                <p>
+                  <strong>Codigo:</strong> 6772129
+                </p>
+                <p id="titulo">
+                 <strong>Titulo original:</strong> Enredados
+                </p>
+                <p id="idioma">
+                 <strong>Idioma original:</strong> Ingles
+               </p>
+                 <p id="año">
+                 <strong>Año:</strong> 2010
+                 </p>
+                 <p>
+                    <b>Resumen:</b> La película cuenta la historia de la perdida princesa Rapunzel,
+                     que anhela dejar su torre aislada por una aventura. 
+                     Contra los deseos de su madrastra, acepta la ayuda de un apuesto intruso, Flynn Rider, para sacarla al mundo que nunca ha visto.
+                </p>
+            </div>
+        </section>
+        <section id="sec-messages">
+        <!--Seccion para mensajes-->
+        </section>
+        <section id="sec_peliculas">
+        <!--Seccion visualizacion de peliculas-->
+            <div class="contenedorPeliculas" id="contenedorPeliculas"></div>
+        </section>
+        <section id="sec_paginador_peliculas">
+        <!--Seccion de Paginacion-->
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado con ♥ - LC2</p>
+    </footer>
+</body>
+</html>
